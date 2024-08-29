@@ -66,7 +66,7 @@ $total =substr($total,1);
 
 $ids= "[$total]";
 
-include "./patron.php";
+include __DIR__."/patron.php";
 
 echo "Registros grabagos exitosamente";
 
